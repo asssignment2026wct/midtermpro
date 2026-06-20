@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width", initial-scale="1">
+        <title>JeeCa Mystery</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons/css/all/all.css">
+        <style>
+            .hero{
+                background: linear-gradient(135deg, #0d6efd 0%, #6f42c1 100%);
+                color: #e1e1e1;
+                padding: 6rem 0 5rem;
+            }
+            .feature-icon{
+                width: 3rem; height: 3rem; border-radius: .75rem;
+                display: inline-flex; align-items: center; justify-content: center;
+                background: rgb(13, 110, 253, .1); color: #0d6efd; font-size: 1.5rem;
+            }
+            .nav-link{ cursor: pointer;}
+            html{ scroll-behavior: smooth;}
+            .card:hover{
+                transform: scale(1.05);
+                box-shadow: 0 4px 8px rgba(143, 66, 132, 0.16);
+
+            }
+            .card-style:hover{
+                transform: scale(1.05);
+                transform: scale(top);
+                box-shadow: 0 4px 8px rgba(143, 66, 132, 0.16);
+            }
+            
+        </style>
+    </head>
+    <body>
+            <!--NAV BAR-->
+        <section id="home">
+            <nav class="navbar navbar-expand-sm bg-danger-subtle border-bottom sticky-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+                        <img src="photo_2026-06-06_07-54-48.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                        <span class="fw-bold">JeeCa Mystery</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" 
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="mainNav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="jeeca-store.html" class="nav-link">
+                                    <i class="bi bi-house-door"></i>Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#product" class="nav-link">
+                                    <i class="bi bi-box-seam"></i> Product
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about_us.html" class="nav-link">
+                                    <i class="bi bi-people"></i> About Us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact_us.html" class="nav-link">
+                                    <i class="bi bi-envelope"></i> Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="photo_1_2026-06-06_09-18-21.jpg" class="d-block w-100" alt="New Product">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="photo_4_2026-06-06_09-18-21.jpg" class="d-block w-100" alt="Soft Lady">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photo_3_2026-06-06_09-18-21.jpg" class="d-block w-100" alt="Best seller">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+            <!--PRODUCT-->
+            <section  id="product" class="py-2">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold">Feature Products</h2>
+                        <p class="text-muted">Not just lashes—your beauty statement</p>
+                    </div>
+                    <div class="d-flex justify-content-center gap-2 mb-4">
+                        <button class="btn btn-outline-primary btn-sm">
+                            <i class="bi bi-leaf"> Lashes</i>
+                        </button>
+                        <button class="btn btn-outline-primary btn-sm">
+                            <i class="bi bi-flower2"> Spiky</i>
+                        </button>
+                        <button class="btn btn-outline-primary btn-sm">
+                            <i class="bi bi-phone"> Foxy</i>
+                        </button>
+                        <button class="btn btn-outline-primary btn-sm">
+                            <i class="bi bi-laptop"> Lower</i>
+                        </button>
+                    </div>
+
+                    <div class="row row-cols-sm-3 row-cols-lg-4 g-4">
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="01.jpg" alt="F01">
+                                <div class="card-img-overlay">
+                                    <h6 class="card-title"><mark style="background-color: #fd0303;">Best Seller</mark></h5>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code F01</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="02.jpg" alt="W06">
+                                <div class="card-img-overlay">
+                                    <h6 class="card-title"><mark style="background-color: #fd0303;">Best Seller</mark></h5>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code W06</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="03.jpg" alt="MD-38">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code MD-38</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="04.jpg" alt="C06">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code C06</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="05.jpg" alt="F21">
+                                <div class="card-img-overlay">
+                                    <h6 class="card-title"><mark style="background-color: #fd0303;">Best Seller</mark></h5>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code F21</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="06.jpg" alt="A80">
+                                <div class="card-body d-flex flex-column">
+                                    <h6 class="card-title">Code A80</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="07.jpg" alt="Cl02">
+                                <div class="card-img-overlay">
+                                    <h6 class="card-title"><mark style="background-color: #fd0303;">Best Seller</mark></h5>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code CL02</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 " transition: transform 0.3s;>
+                                <img class="card-img-top" src="08.jpg" alt="WT32">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code WT-32</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="09.jpg" alt="F21">
+                                <div class="card-img-overlay">
+                                    <h6 class="card-title"><mark style="background-color: #fd0303;">Best Seller</mark></h5>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code F21</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="10.jpg" alt="A80">
+                                <div class="card-body d-flex flex-column">
+                                    <h6 class="card-title">Code A80</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="11.jpg" alt="Cl02">
+                                <div class="card-img-overlay">
+                                    <h6 class="card-title"><mark style="background-color: #fd0303;">Best Seller</mark></h5>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code CL02</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="12.jpg" alt="WT32">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code WT-32</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+
+            <section>
+                <div class=" container alert alert-primary d-flex align-items-center mt-4" role="alert">
+                    <i class="bi bi-gift fs-4"></i>
+                    <div>
+                        <striong>Promotion:</striong> Free Shipping on orders $25 up
+                    </div>
+                </div>
+            </section>
+            <!--BEST SELLER-->
+            
+            <section  id="bestseller" class="py-5 bg-danger-subtle">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold font-monospace">Best Seller</h2>
+                        <p class="text-muted">Trendy Items</p>
+                    </div>
+                    <div class="row row-cols-sm-3 row-cols-lg-4 g-4">
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class ="card-img-top" src="08.jpg" alt="W03">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title"><mark style="background: #fd0303;">Best Seller</mark></h5>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code W03</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="09.jpg" alt="F21">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title"><mark style="background-color: #fd0303;">Best Seller</mark></h5>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code F21</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="10.jpg" alt="A110">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title"><mark style="background-color: #fd0303;">Best Seller</mark></h5>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code A110</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="12.jpg" alt="W56">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title"><mark style="background-color: #fd0303;">Best Seller</mark></h5>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code W56</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="05.jpg" alt="F21">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title"><mark style="background-color: #fd0303;">Best Seller</mark></h5>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code F21</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="11.jpg" alt="M16">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title"><mark style="background-color: #fd0303;">Best Seller</mark></h5>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code M16</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="07.jpg" alt="Cl02">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title"><mark style="background-color: #fd0303;">Best Seller</mark></h5>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Code CL02</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$3.00(Free Glue)</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100" transition: transform 0.3s;>
+                                <img class="card-img-top" src="G03.jpg" alt="Product 8">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title"><mark style="background-color: #fd0303;">Best Seller</mark></h5>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Opera Glue</h5>
+                                    <div class="mt-auto d-flex align-items-center justify-content-between">
+                                        <span class="h6 mb-0">$7.00</span>
+                                        <button class="btn btn-primary btn-sm">
+                                            <i class="bi bi-cart-plus"></i>Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+
+            <section id="Customproduct" class="py-5">
+                <div class="container">
+                    <div class="card mb-3 bg-body-secondary">
+                        <img src="photo_2_2026-06-06_09-18-21.jpg" class="card-img-top" alt="NN27">
+                        <div class="card-body">
+                            <h5 class="card-title">Code NN27</h5>
+                            <p class="card-text">This Lashes style suit Best for Bride MakeUp</p>
+                            <small class="text-muted">Good price for </small>
+                        </div>
+                    </div>
+                    <div class="card mb-3 bg-danger-subtle">
+                        <img src="photo_3_2026-06-06_09-18-21.jpg" class="card-img-top" alt="C06">
+                        <div class="card-body">
+                            <h5 class="card-title text-end">Code C06</h5>
+                            <p class="card-text text-end">For Girls who love soft look, classic, and best for everyday MakeUp.</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 bg-primary-subtle">
+                        <img src="photo_4_2026-06-06_09-18-21.jpg" class="card-img-top" alt="canmake">
+                        <div class="card-body">
+                            <h5 class="card-title">Canmake</h5>
+                            <p class="card-text">Japanese Best MakeUp Brand</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-2">
+                    <div class="text-center mb-2">
+                        <h2 class="fw-bold font-monospace bg-body-secondary">Discover Styles</h2>
+                        <p class="text-muted">Shinning as the way you are</p>
+                    </div>
+                    <div class="row row-cols-sm-2 row-cols-lg-3 g-0">
+                        <div class="col">
+                            <div class="card-style h-100" transition: transform 0.3s;>
+                                <img src="photo_1_2026-06-06_09-18-21.jpg" class="img-fluid rounded-2" alt="style1">
+                                <div class="card-img-overlay">
+                                    <h6 class="card-title text-end"><mark style="background-color: rgb(98, 83, 63);">Wispy Siren Eye</mark></h6>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col">
+                            <div class="card-style h-100" transition: transform 0.3s >
+                                <img src="photo_2_2026-06-06_09-18-21.jpg" class="img-fluid rounded-2" alt="style2">
+                                <div class="card-img-overlay">
+                                    <h6 class="card-title"><mark style="background-color: rgb(98, 83, 63);">Natural Look</mark></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-style h-100" transition: transform 0.3s>
+                                <img src="photo_3_2026-06-06_09-18-21.jpg" class="img-fluid rounded-2" alt="style3">
+                                <div class="card-img-overlay">
+                                    <h6 class="card-title text-end"><mark style="background-color: rgb(98, 83, 63);">Foxy Eye</mark></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-style h-100" transition: transform 0.3s>
+                                <img src="photo_4_2026-06-06_09-18-21.jpg" class="img-fluid rounded-2" alt="style4">
+                                <div class="card-img-overlay">
+                                    <h6 class="card-title"><mark style="background-color: rgb(98, 83, 63);">Doll Eye</mark></h6>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+            </section>
+
+            <section class="py-2">
+                <div class="container">
+                    <div class="card bg-body-secondary">
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p class="font-monospace">
+                                    Every woman deserves to feel beautiful, empowered, and confident. 
+                                    That's why our lashes are designed to help you embrace your beauty and
+                                    celebrate your individuality.
+                                </p>
+                                <footer class="blockquote-footer font-monospace">Jeeca Mystery</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-3">
+                <div class="container px-1 p-1">
+                    <div class="row row-cols-sm-2 row-cols-lg-3 g-3">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header bg-body-secondary font-monospace">
+                                    Soft & Natural
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        So light and soft, you'll barely notice you're wearing them.
+                                    </p>
+                                    <a href="about_us.html" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header bg-body-secondary font-monospace">
+                                    Comfortable All-Day Wear
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Flexible and lightweight for a seamless fit that stays comfortable throughout the day.
+                                    </p>
+                                    <a href="about_us.html" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header bg-body-secondary font-monospace">
+                                    High Quality
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Expertly crafted with premium materials for beautiful, 
+                                        long-lasting lashes you can wear again and again.
+                                    </p>
+                                    <a href="about_us.html" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="py-3">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="photo_1_2026-06-06_09-18-21.jpg" class="d-block w-100" alt="DeleverySlide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="photo_2_2026-06-06_09-18-21.jpg" class="d-block w-100" alt="DealerSlide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="photo_3_2026-06-06_09-18-21.jpg" class="d-block w-100" alt="ThankYouStyle">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+            <footer class="py-2 bg-danger-subtle text-dark">
+                <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+                <div class="small">
+                    <span>© 2026</span> Jeeca Mystery Store
+                    <a href="#home" class="text-dark">
+                        <i class="bi bi-arrow-up-circle"></i>
+                        Back to top
+                    </a>
+                </div>
+                </div>
+            </footer>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>

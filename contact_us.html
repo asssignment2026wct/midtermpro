@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width", initial-scale="1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-danger-subtle border-bottom sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+                    <img src="photo_2026-06-06_07-54-48.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    <span class="fw-bold">JeeCa Mystery</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" 
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="mainNav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="jeeca-store.html" class="nav-link">
+                                <i class="bi bi-house-door"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#product" class="nav-link">
+                                <i class="bi bi-box-seam"></i> Product
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about_us.html" class="nav-link">
+                                <i class="bi bi-people"></i> About Us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact_us.html" class="nav-link">
+                                <i class="bi bi-envelope"></i> Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="photo_1_2026-06-06_09-18-21.jpg" class="d-block w-100" alt="New Product">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5><mark>Best Seller</mark></h5>
+                        <p><mark>Lashes That Match Your Attitude</mark></p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="photo_4_2026-06-06_09-18-21.jpg" class="d-block w-100" alt="Soft Lady">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5><mark>Soft Girl Look</mark></h5>
+                        <p><mark>Serving your Soft Girl Era with our Greatest Lashes</mark></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="photo_3_2026-06-06_09-18-21.jpg" class="d-block w-100" alt="Best seller">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5><mark>Latina Baddie</mark></h5>
+                        <p><mark>Give Yourself the Best Latina</mark></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <section id="contact" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">    
+                    <h2 class="fw-bold">Contact Us</h2>
+                    <p class="text-muted">We'd love to hear from you. Send 
+                            us a messeng below.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-7">
+                        <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" id="name" class="form-control" required>
+                                <div class="invalid-feedback">Please enter your name</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-envelope"></i>
+                                    </span>
+                                    <input type="email" id="email" class="form-control" required>
+                                    <div class="invalid-feedback">Please provide a valid email</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" class="form-control" required>
+                                <div class="invalid-feedback">Please enter a subject</div>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-control">Message</label>
+                                <textarea id="message" class="form-control" rows="4" required></textarea>
+                                <div class="invalid-feedback">Please write your message</div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="bi bi-send"></i>Send Message
+                                </button>
+                                <button class="btn btn-outline-secondary" type="reset">
+                                    <i class="bi bi-eraser"></i>Reset
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="bi bi-geo-alt text-primary">
+                                        <a href="https://maps.app.goo.gl/J9cjocis5uXw4Hh49"> Our Store</a>
+                                    </i>
+                                </h5>
+                                <p class="text-muted mb-1">JeeCa Mystery</p>
+                                <p class="small text-muted">Phnom Penh, Cambodia</p>
+                                <hr>
+                                <p class="mb-2">
+                                    <i class="bi bi-telephone me-2"></i> (+855) 972 018 221
+                                </p>
+                                <p class="mb-2">
+                                    <i class="bi bi-envelope me-2"></i> info@jeeca.com
+                                </p>
+                                <div class="alert-secondary small mt-4 mb-0" role="alert">
+                                    <i class="bi bi-info-circle"></i>
+                                        #3E, St.03 KadawinTown RusseyKeo PhnomPenh, Cambodia     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-2 bg-danger-subtle text-dark">
+                <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+                <div class="small">
+                    <span>© 2026</span> JeeCa Mystery Store
+                    <a href="#home" class="text-dark">
+                        <i class="bi bi-arrow-up-circle"></i>
+                        Back to Home
+                    </a>
+                </div>
+                </div>
+            </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    </body>
+</html>
+        
